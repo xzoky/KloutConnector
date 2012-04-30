@@ -21,6 +21,7 @@
 		884BB2EF154F0638003A1DD8 /* XZKloutConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZKloutConnector.m; sourceTree = "<group>"; };
 		884BB2F0154F0638003A1DD8 /* XZKloutConnectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKloutConnectorDelegate.h; sourceTree = "<group>"; };
 		884BB2FE154F10BA003A1DD8 /* Key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Key.h; sourceTree = "<group>"; };
+		884BB2FF154F1165003A1DD8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +39,7 @@
 		884BB2D3154F05FD003A1DD8 = {
 			isa = PBXGroup;
 			children = (
+				884BB2FF154F1165003A1DD8 /* README.md */,
 				884BB2E3154F05FD003A1DD8 /* KloutConnector */,
 				884BB2E0154F05FD003A1DD8 /* Frameworks */,
 				884BB2DF154F05FD003A1DD8 /* Products */,
