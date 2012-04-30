@@ -8,15 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		884BB2E2154F05FD003A1DD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 884BB2E1154F05FD003A1DD8 /* Foundation.framework */; };
-		884BB2E8154F05FD003A1DD8 /* KloutConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 884BB2E7154F05FD003A1DD8 /* KloutConnector.m */; };
+		884BB2F1154F0638003A1DD8 /* XZKloutConnector.h in Headers */ = {isa = PBXBuildFile; fileRef = 884BB2EE154F0638003A1DD8 /* XZKloutConnector.h */; };
+		884BB2F2154F0638003A1DD8 /* XZKloutConnector.m in Sources */ = {isa = PBXBuildFile; fileRef = 884BB2EF154F0638003A1DD8 /* XZKloutConnector.m */; };
+		884BB2F3154F0638003A1DD8 /* XZKloutConnectorDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 884BB2F0154F0638003A1DD8 /* XZKloutConnectorDelegate.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		884BB2DE154F05FD003A1DD8 /* libKloutConnector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libKloutConnector.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		884BB2E1154F05FD003A1DD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		884BB2E5154F05FD003A1DD8 /* KloutConnector-Prefix.pch */ = {isa = PBXFileReference; path = "KloutConnector-Prefix.pch"; sourceTree = "<group>"; };
-		884BB2E6154F05FD003A1DD8 /* KloutConnector.h */ = {isa = PBXFileReference; path = KloutConnector.h; sourceTree = "<group>"; };
-		884BB2E7154F05FD003A1DD8 /* KloutConnector.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KloutConnector.m; sourceTree = "<group>"; };
+		884BB2E5154F05FD003A1DD8 /* KloutConnector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KloutConnector-Prefix.pch"; sourceTree = "<group>"; };
+		884BB2EE154F0638003A1DD8 /* XZKloutConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKloutConnector.h; sourceTree = "<group>"; };
+		884BB2EF154F0638003A1DD8 /* XZKloutConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZKloutConnector.m; sourceTree = "<group>"; };
+		884BB2F0154F0638003A1DD8 /* XZKloutConnectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKloutConnectorDelegate.h; sourceTree = "<group>"; };
+		884BB2F9154F0A20003A1DD8 /* Key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Key.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +63,9 @@
 		884BB2E3154F05FD003A1DD8 /* KloutConnector */ = {
 			isa = PBXGroup;
 			children = (
-				884BB2E6154F05FD003A1DD8 /* KloutConnector.h */,
-				884BB2E7154F05FD003A1DD8 /* KloutConnector.m */,
+				884BB2EE154F0638003A1DD8 /* XZKloutConnector.h */,
+				884BB2EF154F0638003A1DD8 /* XZKloutConnector.m */,
+				884BB2F0154F0638003A1DD8 /* XZKloutConnectorDelegate.h */,
 				884BB2E4154F05FD003A1DD8 /* Supporting Files */,
 			);
 			path = KloutConnector;
@@ -70,6 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				884BB2E5154F05FD003A1DD8 /* KloutConnector-Prefix.pch */,
+				884BB2F9154F0A20003A1DD8 /* Key.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -81,6 +87,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				884BB2F1154F0638003A1DD8 /* XZKloutConnector.h in Headers */,
+				884BB2F3154F0638003A1DD8 /* XZKloutConnectorDelegate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,7 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				884BB2E8154F05FD003A1DD8 /* KloutConnector.m in Sources */,
+				884BB2F2154F0638003A1DD8 /* XZKloutConnector.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +235,7 @@
 				884BB2ED154F05FD003A1DD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
