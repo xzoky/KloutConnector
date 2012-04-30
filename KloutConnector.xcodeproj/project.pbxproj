@@ -20,7 +20,7 @@
 		884BB2EE154F0638003A1DD8 /* XZKloutConnector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKloutConnector.h; sourceTree = "<group>"; };
 		884BB2EF154F0638003A1DD8 /* XZKloutConnector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XZKloutConnector.m; sourceTree = "<group>"; };
 		884BB2F0154F0638003A1DD8 /* XZKloutConnectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XZKloutConnectorDelegate.h; sourceTree = "<group>"; };
-		884BB2F9154F0A20003A1DD8 /* Key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Key.h; sourceTree = "<group>"; };
+		884BB2FE154F10BA003A1DD8 /* Key.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Key.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +75,7 @@
 			isa = PBXGroup;
 			children = (
 				884BB2E5154F05FD003A1DD8 /* KloutConnector-Prefix.pch */,
-				884BB2F9154F0A20003A1DD8 /* Key.h */,
+				884BB2FE154F10BA003A1DD8 /* Key.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
